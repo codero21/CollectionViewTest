@@ -14,6 +14,7 @@
 		E3ADE9C11EEFA75000F29999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ADE9BF1EEFA75000F29999 /* LaunchScreen.storyboard */; };
 		E3ADE9CC1EEFA75000F29999 /* CollectionViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ADE9CB1EEFA75000F29999 /* CollectionViewTestTests.swift */; };
 		E3ADE9D71EEFA75000F29999 /* CollectionViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ADE9D61EEFA75000F29999 /* CollectionViewTestUITests.swift */; };
+		E3ADE9E51EEFB3CB00F29999 /* ElementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ADE9E41EEFB3CB00F29999 /* ElementCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E3ADE9D21EEFA75000F29999 /* CollectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3ADE9D61EEFA75000F29999 /* CollectionViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTestUITests.swift; sourceTree = "<group>"; };
 		E3ADE9D81EEFA75000F29999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3ADE9E41EEFB3CB00F29999 /* ElementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E3ADE9B61EEFA75000F29999 /* AppDelegate.swift */,
 				E3ADE9B81EEFA75000F29999 /* ViewController.swift */,
 				E3ADE9BA1EEFA75000F29999 /* Main.storyboard */,
+				E3ADE9E41EEFB3CB00F29999 /* ElementCollectionViewCell.swift */,
 				E3ADE9BD1EEFA75000F29999 /* Assets.xcassets */,
 				E3ADE9BF1EEFA75000F29999 /* LaunchScreen.storyboard */,
 				E3ADE9C21EEFA75000F29999 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3ADE9B91EEFA75000F29999 /* ViewController.swift in Sources */,
+				E3ADE9E51EEFB3CB00F29999 /* ElementCollectionViewCell.swift in Sources */,
 				E3ADE9B71EEFA75000F29999 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

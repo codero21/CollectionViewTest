@@ -9,9 +9,10 @@
 import UIKit
 
 class ElementCollectionViewCell: UICollectionViewCell {
-    <#code#>
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
+    
+    
 }
-
-
-
-
